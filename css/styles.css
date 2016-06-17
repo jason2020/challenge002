@@ -1,4 +1,4 @@
-html, body, h1, p, ul {
+html, body, h1, p, ul, h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 }
@@ -7,8 +7,48 @@ ul {
 	list-style-type: none;
 }
 
+li {
+	display: inline;
+	margin-left: 1%;
+}
+
 #main {
 	width: 1200px;
 	height: 200px;
 	background-color: #5A5A5A;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #B9B5B6;
+	font-size: 18px;
+	font-style: italic;
+}
+
+#bImage {
+	width: 1000px;
+	height: 680px;
+	margin: 100px;
+	background-color: #5A5A5A;
+}
+
+.tImage {
+	width: 450px;
+	height: 220px;
+	background-color: #5A5A5A;
+}
+
+.container {
+	width: 450px;
+	height: 330px;
+	margin: 100px;
+}
+
+#right {
+	margin-left: 50%;
+	margin-top: -33%;
+}
+
+.tbox {
+	width: 450px;
+	height: 110px;
+	background-color: #D4CECF;
+	margin-top: -1%;
 }
